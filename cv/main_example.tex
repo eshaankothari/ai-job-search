@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Eshaan Kothari
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Eshaan Kothari - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Eshaan}{Kothari}
+\address{Stanford, CA}{}{}
+\phone[mobile]{(201) 970-3067}
+\email{ekothari@stanford.edu}
+\extrainfo{\href{https://linkedin.com/in/eshaan-kothari}{LinkedIn}, \href{https://github.com/eshaankothari}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Stanford Economics \& Computer Science (AI) student (GPA 4.0) working at the intersection of energy markets, investing, and applied analytics. Energy investment analyst at Plug \& Play (30+ diligences, LP-facing memos), founding-team engineer at an AI energy-efficiency startup (\$560K pilot profit), and geophysics ML researcher informing \$175M of California infrastructure decisions. Combines financial modeling and client-facing delivery with Python/ML engineering.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Financial Modeling \& Valuation}: TAM/SAM/SOM sizing, unit economics (LTV/CAC), EBITDA and P/S projections, VC/DCF valuation; LP-facing investment memos.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Data Analysis \& ML}: Python (Pandas, Sklearn, PyTorch), SQL, A/B testing; satellite-data analysis and predictive modeling presented to government stakeholders.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Client-Facing Strategy}: pitch development, discovery calls, market-entry and competitive/regulatory analysis, board-level deliverables.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Energy \& Infrastructure Domain}: renewables, grid technology, data-center energy, building efficiency; energy economics and financial markets coursework.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Tools \& Design}: Excel (advanced), Tableau, PowerPoint, Figma, React.js, C++, Adobe Creative Suite.
 
 \end{itemize}
 
@@ -76,32 +76,58 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY-Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- EXL (incoming) ---
+\item{\cventry{Jun 2026 - Sep 2026}{Incoming Business Analytics Intern}{EXL Holdings}{}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Joining energy \& infrastructure team, analyzing client data to optimize operational efficiency and CapEx deployment
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Doerr ---
+\item{\cventry{Sep 2025 - Present}{Geophysics Machine Learning Researcher}{Stanford Doerr School of Sustainability}{Stanford, CA}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Analyze NASA InSAR/GRACE satellite data (via Pandas, Sklearn) to quantify Central Valley groundwater depletion
+    \item Present geospatial maps to CA government, informing resource allocation and \$175M infra investment decisions
+    \item Built PyTorch wildfire prediction model, showcasing to Governor Green's Office, UH Manoa, and KIUC in Hawaii
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY-YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- SOURCE ---
+\item{\cventry{Jun 2025 - Sep 2025}{Forward-Deployed Engineer}{SOURCE Climate Solutions (AI energy efficiency startup)}{}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Served on founding team, delivering cost-saving building energy upgrade projects and driving expansion into commercial real estate and data center customer segments via insights-driven outreach
+    \item Prepared tailored pitch decks (PowerPoint, Tableau) and drove client-facing conversations that secured pilot projects with Prologis, Primestor, and Stanford Facilities, generating \$560K in profit
+    \item Designed, A/B tested, and deployed automated retrofit analytics MVP, reducing engineer analysis time by 40\%
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Plug & Play ---
+\item{\cventry{Dec 2024 - Jun 2025}{Energy Investment Analyst}{Plug \& Play Tech Center (Climate VC)}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Sourced and scored 30+ seed-round energy startups via discovery calls, technical diligence, and market sizing
+    \item Built Excel financial models evaluating TAM/SAM/SOM, unit economics (LTV/CAC), and profitability projections (EBITDA, P/S), informing VC/DCF valuation and risk-return scenarios
+    \item Produced 3 investment memos on grid resilience, data center BTM energy supply, and maritime decarbonization, presenting to Fortune 500 LPs (e.g., PG\&E, Tokyo Gas)
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Energy Club ---
+\item{\cventry{Aug 2024 - Present}{Project Director \& Principal}{Stanford Energy Club \& Sustainable Investment Group}{Stanford, CA}{}{\vspace{1pt}
+\begin{itemize}
+    \item Co-lead consulting projects, including 14-member team advising Enline (grid technology) on US market entry; presented 37-page whitepaper to Enline board
+    \item Conducted competitive and regulatory analysis, pricing/moat assessment, and evaluation of non-traditional revenue channels (hyperscalers, insurers, utilities)
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- IvyBound ---
+\item{\cventry{May 2021 - Present}{Co-Founder \& Chief Financial Officer}{IvyBound Consulting}{}{}{\vspace{1pt}
+\begin{itemize}
+    \item Co-founded and scaled BIPOC-focused college consulting startup to 32K+ followers, 67 clients, and 7-figure valuation
+    \item Launched group coaching, test prep partnerships, and ad campaigns in US and Europe, driving \$230K+ revenue growth
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +140,14 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
+\item{\cventry{2024 - 2028}{B.S. in Economics \& Computer Science (AI)}{Stanford University}{Stanford, CA}{}{\vspace{1pt}
+In progress, expected 2028. GPA 4.0/4.0. Coursework: graduate-level statistics, econometrics/causal methods, machine/deep learning, financial markets, energy economics, game theory, climate tech entrepreneurship.
 }}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY-YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\item{\cventry{2020 - 2024}{High School Diploma, Valedictorian}{Riverdale Country School}{The Bronx, NY}{}{\vspace{1pt}
+GPA 4.0 (unweighted), ACT 36. Editor-in-Chief of newspaper, Founder of Riverdale Takes Action.
 }}
 
 \end{itemize}
@@ -133,27 +159,18 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (native), Hindi (fluent), Spanish (proficient), Mandarin (intermediate).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
+%     HONORS AND AWARDS
 % ============================================================
 
 \section{Honors and Awards}
 \vspace{1pt}
 \begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Valedictorian} -- Riverdale Country School (2024).}
+\item{\textbf{Coca-Cola Scholars Finalist}; \textbf{National Merit Scholar}; \textbf{President's Volunteer Service Award}.}
 \end{itemize}
 
 % ============================================================

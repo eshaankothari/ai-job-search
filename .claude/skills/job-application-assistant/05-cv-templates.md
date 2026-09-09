@@ -4,7 +4,7 @@ framework_version: 1.4.0
 
 # CV Templates and Tailoring Guide
 
-<!-- SETUP: Profile statements and section ordering are personalized by running /setup -->
+> **ESHAAN'S FORMAT OVERRIDE (governs everything below):** his resume is **1 page**, maintained in **Google Docs** in his existing format — deliver tailored content as text/Markdown matching his sections, not `.tex`, unless he explicitly asks. See CLAUDE.md "Resume Format Override". The LaTeX/moderncv machinery in this file applies only on explicit request; the profile statements, tailoring principles, keyword/ATS rules, and relevance-weighted cutting all still apply (with a 1-page, not 2-page, budget).
 
 ## Template: LaTeX moderncv (Banking Style)
 
@@ -115,12 +115,16 @@ When the role sits outside your home domain, **lead with the domain-transfer arg
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For strategy & consulting roles (Bain ACI, D.E. Shaw Business Strategy, Baringa, Deloitte):**
+> Stanford Economics & Computer Science student (GPA 4.0) combining investment-grade analysis with client-facing delivery: sourced and scored 30+ startups as an energy investment analyst at Plug & Play, presented investment memos to Fortune 500 LPs, and led a 14-member team advising a grid-technology company on US market entry with a 37-page whitepaper delivered to its board. On a startup founding team, drove client conversations that secured $560K in pilot-project profit. Brings structured problem-solving, financial modeling, and the communication skills of a former editor-in-chief.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For energy & infrastructure investing roles (DESRI, infrastructure PE/AM, climate VC):**
+> Stanford Economics & Computer Science student focused on energy and infrastructure: founder & CEO of Augmentage, a blockchain alternative trading system bringing secondary liquidity to institutional infrastructure assets (tokenized yield notes, Reg D/ATS regulatory path, DESRI-first go-to-market); energy investment analyst at Plug & Play (30+ seed-stage diligences, TAM/unit-economics/DCF modeling, memos on grid resilience and data-center BTM supply presented to LPs including PG&E and Tokyo Gas); founding-team forward-deployed engineer at an AI energy-efficiency startup ($560K pilot profit with Prologis, Primestor, Stanford Facilities); geophysics ML researcher informing $175M of California infrastructure investment decisions. Deep coursework in energy economics and financial markets.
+>
+> *(Note for DESRI specifically: the Augmentage GTM literally names DESRI as pilot partner — decide with Eshaan whether to lead with it (signals deep interest + existing warm contacts Samir/Jennifer/Sam/Aryan) or soft-pedal it (a pending commercial pitch to the same firm could read as a conflict). Ask before drafting.)*
+
+**For analytics / data science / tech roles (FanDuel, DraftKings, BI at big tech, SWE):**
+> Stanford Economics & Computer Science (AI) student (GPA 4.0) who ships analytics that change decisions: built an AI game-integrity platform for the NBA at EXL — pipelines over 32K player-games and 58K sportsbook prop quotes, a three-signal anomaly-scoring model that ranks known federal-indictment cases in the top 0.4%, and an investigator dashboard (Postgres/FastAPI/React) with LLM case summaries. Previously A/B tested a retrofit-analytics MVP cutting engineer analysis time 40%, and models NASA satellite data (Pandas/Sklearn/PyTorch) for California groundwater and wildfire decisions. Python, SQL, C++, React, Tableau — paired with the business fluency of a VC analyst and startup founding-team member.
 
 Statements labeled *[Used for: <company>_<role>]* were extracted from archived application drafts by `/setup` Path A. They are **phrasing references, never fact sources**: when drafting from one, every factual claim still comes from `01-candidate-profile.md` - a past tailored draft does not vouch for its own accuracy.
 

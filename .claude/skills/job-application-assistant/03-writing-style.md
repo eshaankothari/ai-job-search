@@ -4,9 +4,36 @@ framework_version: 1.2.0
 
 # Writing Style Guide
 
+## ESHAAN'S ACTUAL VOICE (extracted 2026-08-09 from ~20 real cover letters in documents/Career Planning/)
+
+**This section overrides the generic rules below wherever they conflict — letters must sound like Eshaan, not like a style guide.** Primary voice references: `DESIM Cover Letter.docx` (most mature), the IB draft in `Finance Cover Letter.docx`, `KothariSOURCECover`.
+
+### His letter architecture (follow this order)
+1. **Salutation:** "Dear [Firm] Hiring Team," or "Dear [Firm] Recruitment Team,"
+2. **Opening:** "I am writing to express my strong interest in [exact role]," + **name-drop referrals immediately** when they exist ("especially after hearing about this role from [Name] and from fellow peer and former DESRI intern Samir Chowdhury"). Then the thesis sentence: "With my [academic background] as a Stanford student and my passion for [three things], I am eager to contribute to [specific team/work]."
+3. **Narrative paragraph:** sustainability/energy experiences that build to an earned lesson about finance — his signature move: "Seeing that monetary incentives ultimately determine which projects scale drew me to finance." Concrete scenes (presenting to Governor Green's Office during a Hawaii field study; pitching building portfolio managers on ROI "not merely environmental benefit").
+4. **Sector-thesis paragraph:** current market view showing genuine knowledge ("With data centers and cloud computing revealing key grid constraints, SMRs potentially offering low-cost, zero-emissions power... we are entering a unique, new era of energy") + one authentic personality touch ("reciprocally nerd out with co-workers on our respective interests").
+5. **Hands-on credentials paragraph:** "Beyond this niche, I bring hands-on finance and analytical experience." Plug & Play (models presented to institutional LPs) and Enline ("teaching a team of 14 undergrads to build/interpret these financial models").
+6. **Technical paragraph:** CS double major + Python/ML research, then why the program's *specific features* appeal (rotations, real-world feedback, learning from experienced investors: "especially compelling to me").
+7. **Close:** "Thank you for considering my application. I would be thrilled to contribute my analytical background, intellectual curiosity, and collaborative mindset to the [team] team." Sign-off: "Sincerely, Eshaan Kothari" (older letters used "Best,").
+
+### His stylistic fingerprints (use them)
+- **Em-dashes, liberally** — for asides, examples, and emphatic appositives. (His voice overrides the "no em-dashes" rule below.)
+- **Parenthetical spec-stacking:** "(TAM/SAM/SOM)", "(EBITDA, P/S multiples)", "(including discovery calls)"
+- Sentences starting with "And," and "Also," — deliberate, conversational
+- Recurring phrases: "I value that...", "genuinely excites me", "especially compelling to me", "I am eager to contribute...", "hands-on", "forward-facing", "under the guidance of industry experts", "Ultimately, ..."
+- Warm enthusiasm, sometimes superlative: "incredible opportunity", "thrilled", "world-leading"
+- Self-descriptions he actually uses: "DOer", "swiss-army knife, everything man", thrives in "fast-paced, entrepreneurial environments"
+- Signature theme: **aligning financial and sustainable incentives**; "how effectively capital is structured, priced, and deployed"; entrepreneurship "bolsters my work in [X] and vice versa"
+- Longer flowing sentences with stacked clauses; not clipped minimalism
+
+### What he does NOT do
+- No stiff formality, no short punchy fragments, no "I look forward to the opportunity to discuss" boilerplate beyond a single simple close
+- Never cold or understated — his letters lead with genuine excitement
+
 ## Critical Rules
 
-1. **NO em-dashes (--).**  Use commas, periods, or restructure the sentence instead.
+1. **NO em-dashes (--).**  Use commas, periods, or restructure the sentence instead. **[Overridden for Eshaan: his authentic voice uses em-dashes heavily — keep them.]**
 2. **NO cliches or filler phrases.** Cut: "I am passionate about", "I believe I would be a great fit", "leverage my skills", "hit the ground running", "drive results", "synergies".
 3. **NO generic buzzwords** without concrete backing. Every claim must be supported by a specific example or fact.
 4. **NO apologetic or overly humble language.** Not "I think I could contribute" but "I bring X, demonstrated by Y."

@@ -193,3 +193,30 @@ The command is designed to be re-run as your document collection grows. Each run
 - After adding reference letters
 - After recording outcomes for completed applications
 - After updating your master CV
+
+---
+
+## ats/
+
+Score ledger written by `/ats-match` (`runs.jsonl`, one line per resume-version × job run). Read by `/hub` for the Sheet's ATS column and by `python3 tools/ats_match.py compare`. Personal data — gitignored.
+
+## portfolio/
+
+Work products that are *evidence*, not applications: `exl_nba_game_integrity/` (EXL internship final presentation), `augmentage/` (startup pitch deck). `/apply`, `/interview`, and `/job` cite these; nothing here is a job.
+
+## Career Planning/
+
+Eshaan's pre-framework archive (imported 2026-08-09; `/setup` and `/expand` mined it for the profile and writing style). Sorted by type: `resumes/`, `cover-letters/` (incl. cover + interview-prep bundles), `interview-prep/`, `applications/` (form answers), `trackers/` (old spreadsheets — superseded by the Hub Sheet), `notes/`, `transcripts/`, and `_txt/` (plain-text conversions used for style extraction). Read-only history: new work goes in `applications/<job_id>/` and `cv/`.
+
+## Where a job's files live
+
+| Thing | Path | Written by |
+|---|---|---|
+| verbatim posting | `applications/<job_id>/job_posting.md` | `/job` (or `/apply`) |
+| intel brief (requirements, keywords, angle, networking) | `applications/<job_id>/brief.md` | `/job` |
+| ATS report | `applications/<job_id>/ats-match-report_<fp>.md` | `/ats-match` |
+| tailored resume | `../cv/Eshaan Kothari_Resume_<Company>.docx` | `/optimize-resume` or you |
+| cover letter | `../cover_letters/cover_<company>_<role>.md` | `/apply` |
+| interview packs | `applications/<job_id>/interview_prep_<stage>.md` | `/interview` |
+| outcome | `applications/<job_id>/outcome.md` | `/outcome` |
+| master resume PDFs | `cv/` (this folder) | you |

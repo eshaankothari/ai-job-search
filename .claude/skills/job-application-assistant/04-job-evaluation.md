@@ -60,9 +60,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Financial modeling & valuation (TAM/SAM/SOM, unit economics, DCF/VC), market research & diligence, Python data analysis (Pandas, Sklearn), Excel, Tableau, presentation/deck building, energy & climate domain knowledge
+**Moderate match areas:** ML engineering (PyTorch — research-level), econometrics/causal inference (coursework), SQL, React.js/web dev, C++, A/B testing, design tools (Figma, Adobe)
+**Weak match areas:** Production software engineering at scale, DevOps/infra, advanced quant/trading math (no formal quant background), professional accounting, deep statistics beyond coursework
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -74,9 +74,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Energy/climate investing & diligence (Plug & Play), client-facing analytics delivery (SOURCE), consulting-style engagements (Enline whitepaper), entrepreneurship (IvyBound)
+**Moderate:** ML research (Stanford Doerr), business/sportsbook analytics (EXL, summer 2026), data science
+**Entry-level:** Strategy consulting (target, no direct employment yet), quant finance, traditional SWE
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -91,10 +91,13 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
-- Frequent international travel: FLAG (discuss with user)
+Internship search — relocation for a summer is expected, not a deal-breaker. Prefers **in-person** roles.
+- NYC or SF: PASS (preferred)
+- Seattle, LA, Chicago: PASS (acceptable)
+- Other major US cities: FLAG (discuss with user)
+- Fully remote: FLAG (prefers in-person; not excluded)
+- Outside US: FLAG (discuss with user)
+- **Compensation check:** flag roles paying less than ~$35/hr or unpaid — user explicitly wants to out-earn summer 2025's $35/hr
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -106,20 +109,21 @@ Does this role advance career goals and contain tasks that energize?
 | 40-59 | Decent job but doesn't build toward career goals |
 | 0-39 | Dead end or backwards step |
 
-**Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+**Career goals (Summer 2027 internship cycle, in priority order):**
+- **Priority 1 — Strategy & consulting:** Bain ACI first; strategy/business-development roles at quant & finance firms (Jane Street, D.E. Shaw Business Strategy) — these deadlines close earliest
+- **Priority 2 — Energy & infrastructure investing:** DESRI is the top target; also infrastructure PE/asset management (BlackRock, Macquarie, Ares, JPM Infrastructure), energy consulting (Baringa, Deloitte), climate VC
+- **Priority 3 — Analytics & big tech:** business/sportsbook analytics (FanDuel, DraftKings — leverages the EXL sportsbook analytics project), business intelligence (Amazon, Cisco, Capital One), data-center/infra strategy at big tech (Google, xAI, Digital Realty), traditional SWE
+- **Long-term thread:** wants work mixing client-facing + investing + technical; aspires to publish consulting-style research on infrastructure market trends
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: client-facing strategy work, investment analysis and market research, building analytical tools, research writing on market trends (esp. energy/infrastructure)
+- Tasks that drain: purely internal heads-down execution with no stakeholder exposure, pure maintenance work *(inferred — confirm with user)*
+- Non-task factors: wants exposure to senior people and real decisions; prefers entrepreneurial, fast-moving teams
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: compensation matters — prefer roles paying above ~$35/hr; consulting/finance/big-tech intern comp is the benchmark
+- **Flexibility**: student — summer internships only; fall/winter deadlines drive prioritization (earliest deadlines first: quant/finance strategy, then consulting, then tech)
+- **Professional development**: building toward strategy/investing careers; brand-name firms and referral-driven recruiting (Stanford + Riverdale networks) are part of the strategy
 
 ### 6. Salary Benchmark (Optional)
 
@@ -194,7 +198,11 @@ Present the evaluation as:
 - **Weak Fit** (30-44): Probably skip unless strategic reasons
 - **Poor Fit** (<30): Skip
 
-## Pre-Application: Call the Employer (Best Practice)
+## Calibration from Past Applications
+
+- **Brand tier is a first-class signal (Eshaan, 2026-08-09):** a scrape run of objectively decent matches (Amex, Simon-Kucher, CF Private Equity, BRG) landed flat — "I don't like these jobs that much. I want more like Jane Street." When presenting results, lead with strategy & analytics roles at elite firms (Jane Street S&P, D.E. Shaw Strategy & BD, BlackRock AMERS, Citadel Associate, MBB, Capital One Strategy, SpaceX BizOps); present mid-tier matches as a labeled secondary list. Elite-tier Career Alignment scores should reflect this preference explicitly.
+- **Wrong-stage postings recur:** many "2027" postings are full-time programs for 2027 *grads* (Eshaan is class of 2028; his target is *Summer 2027 internships*, full-time start 2028). Always check the eligibility line (grad-date window) before scoring; "Sept 2027–July 2028 grads" = his cycle.
+- **JPM Public Finance 2027 = rejection** (not the offer the old tracker claimed) — public-finance IB track has one negative signal; his energy/strategy profile is stronger than his pure-IB profile.
 
 Before writing the application, consider whether the candidate should call the contact person listed in the posting. **Only call if there are substantive questions** - never call just to "be remembered."
 
